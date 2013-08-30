@@ -15,3 +15,5 @@ A starting point to create angular apps with a node express server.
 $ cd express-angular-kit  
 $ node app  
 
+Navigate the browser to http://127.0.0.1:3000/
+
