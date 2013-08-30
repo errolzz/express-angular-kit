@@ -1,6 +1,3 @@
-express-angular-kit
-===================
-
 # Express Angular Kit
 
 A starting point to create angular apps with a node express server.
@@ -15,6 +12,6 @@ A starting point to create angular apps with a node express server.
 
 ## Running the app
 
-$ cd express-angular-kit
-$ node app
+$ cd express-angular-kit  
+$ node app  
 
