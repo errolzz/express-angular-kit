@@ -2,21 +2,23 @@
 
 /* Controllers */
 
-var ctrls = angular.module('myApp.controllers', []);
+var controllers = angular.module('myApp.controllers', []);
 
-ctrls.controller('AppCtrl', ['$scope', 
-    function($scope) {
-        $scope.title = 'Hello World!'
+
+controllers.controller('AppCtrl', ['$scope', 'version',
+    function($scope, version) {
+        $scope.title = 'Hello World!',
+        $scope.version = version
     }
 ]);
 
-ctrls.controller('MyCtrl1', ['$scope', 
+controllers.controller('MyCtrl1', ['$scope', 
     function($scope) {
 
     }
 ]);
 
-ctrls.controller('MyCtrl2', ['$scope', 
+controllers.controller('MyCtrl2', ['$scope', 
     function($scope) {
 
     }
